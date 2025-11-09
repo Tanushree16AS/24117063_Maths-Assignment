@@ -101,7 +101,7 @@ else:
 print('='*75)
 
 
-#Summary of the whole task
+# Summary of the whole task
 print('='*75)
 print('='*15,'STEEL PLATE TEMPERATURE & HEAT FLOW SUMMARY','='*15)
 print('='*75)
