@@ -99,3 +99,23 @@ if p_value < 0.05:
 else:
     print("Fail to reject the null hypothesis. The true mean is equal to 100°C.")
 print('='*75)
+
+
+#Summary of the whole task
+print('='*75)
+print('='*15,'STEEL PLATE TEMPERATURE & HEAT FLOW SUMMARY','='*15)
+print('='*75)
+print('---TASK 1---')
+print('Heat flow approximation at four grid points across the steel plate:')
+for i, val in enumerate(x,1):
+  print(f'Temperature at x{i} = {val:.2f} °C')
+print('\n---TASK 2---')
+print("Temperature changes fastest along one edge of steel plate: [0,10]")
+print('\n---TASK 3---')
+print(f"Probability% of random error exceeding 3°C: {probability*100:.2f}%")
+print('\n---TASK 4---')
+if p_value < 0.05:
+    print("Reject the null hypothesis. The true mean is not equal to 100°C.")
+else:
+    print("Fail to reject the null hypothesis. The true mean is equal to 100°C.")
+print("="*75)
