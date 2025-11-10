@@ -121,5 +121,5 @@ print('\n---TASK 4---')
 if p_value < 0.05:
   print('Reject the null hypothesis. The true mean is not equal to 100°C.')
 else:
-  print('Fail to reject the null hypothesis. The true mean is equal to 100°C')
+  print('Fail to reject the null hypothesis. The true mean is equal to 100°C.')
 print('='*75)
