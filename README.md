@@ -100,7 +100,7 @@ else:
     print("Fail to reject the null hypothesis. The true mean is equal to 100°C.")
 print('='*75)
 
-# ================================================================================================================
+# ==================== SUMMARY ====================
 
 print('='*75)
 print('='*15,'STEEL PLATE TEMPERATURE & HEAT FLOW SUMMARY','='*15)
