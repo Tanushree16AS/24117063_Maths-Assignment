@@ -28,7 +28,7 @@ print('Solution Vector (x) \n',x)
 print('-'*75)
 print('Heat flow approximation at four grid points across the steel plate:')
 for i, val in enumerate(x,1):
-  print(f'Temperature at X{i} = {val:.2f} °C')
+  print(f'Temperature at x{i} = {val:.2f} °C')
 print('='*75)
 
 # Solving with Calculus
