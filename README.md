@@ -1,8 +1,13 @@
-import numpy as np # For numerical computing
-import matplotlib.pyplot as plt # For visualization
-from scipy import stats # For scientific computing and statistics
-from scipy.stats import norm # For probability
-from scipy.stats import ttest_1samp # For hypothesis testing (one sample t-test)
+# For numerical computing
+import numpy as np 
+# For visualization
+import matplotlib.pyplot as plt 
+# For scientific computing and statistics
+from scipy import stats 
+# For probability
+from scipy.stats import norm 
+# For hypothesis testing (one sample t-test)
+from scipy.stats import ttest_1samp 
 
 # Solving with Linear Algebra
 # Creating coefficient matrix A
