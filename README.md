@@ -1,3 +1,5 @@
+# Importing all the libraries used in this task at the beginning
+
 # For numerical computing
 import numpy as np 
 # For visualization
